@@ -29,7 +29,7 @@ void loop() {
     
     noTone(8);
     
-    Bridge.put("rf", String(rf));
+    Bridge.put("rf", String(0));
   }
   else{
     
@@ -39,7 +39,7 @@ void loop() {
     
     tone(8, 784, 500);
     
-    Bridge.put("rf", String(rf));
+    Bridge.put("rf", String(0));
   }
   
   Serial.println("rf");
