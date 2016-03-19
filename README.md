@@ -1,4 +1,4 @@
-# Makee.io 智慧居家裝置實作：使用 LinkitSmart 7688 製作
+# 智慧居家裝置實作：使用 LinkitSmart 7688 製作
 
 ## Philosophy
 
