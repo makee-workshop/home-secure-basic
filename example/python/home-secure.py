@@ -23,7 +23,7 @@ def waitAndExecuteCommand(commandChannel):
                                                             
         if len(fields) > 1:                                 
             timeStamp, dataChannelId, commandString = fields
-	    if dataCahnnelId=='passive_control':
+	    if dataChannelId=='passive_control':
 		if commandString=='1':
 		    enableWarning()
 		elif commandString=='0':
